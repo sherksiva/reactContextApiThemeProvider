@@ -1,0 +1,27 @@
+#root {
+  width: 100%;
+  min-height: 100vh;
+}
+.App {
+  padding: 20px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.App.light {
+  background-color: white;
+  color: black;
+}
+
+.App.dark {
+  background-color: black;
+  color: white;
+}
+
+button {
+  padding: 10px 15px;
+  cursor: pointer;
+  border: 1px solid currentColor;
+}
+button:hover {
+  background-color: rgba(235, 66, 66, 0.1);
+}
